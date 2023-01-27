@@ -1,0 +1,24 @@
+1)	Con riferimento al database IFTS scrivi la query che trova tutte le regioni che appartengono all’area geografica Sud
+
+SELECT regione
+FROM regioni
+where area_geografica = 'sud'
+
+2)	Con riferimento al database IFTS scrivi la query che trova tutte le informazioni relative alle prenotazioni che hanno importo superiore a 200
+
+SELECT ALL*
+FROM prenotazioni
+WHERE importo > 200
+
+3)	Con riferimento al database IFTS scrivi la query che trova le prenotazioni con importo superiore a 150 e caparra inferiore a 50
+
+SELECT *
+FROM prenotazioni
+WHERE importo>150
+AND caparra<50
+
+4)	Con riferimento al database IFTS scrivi la query che trova tutti i nomi e cognomi dei clienti ordinati per età
+
+SELECT nome, cognome
+FROM clienti
+ORDER BY datanascita
