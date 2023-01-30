@@ -6,7 +6,7 @@ where area_geografica = 'sud'
 
 2)	Con riferimento al database IFTS scrivi la query che trova tutte le informazioni relative alle prenotazioni che hanno importo superiore a 200
 
-SELECT ALL*
+SELECT *
 FROM prenotazioni
 WHERE importo > 200
 
